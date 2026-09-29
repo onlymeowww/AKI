@@ -1,8 +1,24 @@
-
-
 body {background-color:mediumpurple;}
-.logo {width:150px; height:50px; padding-left:25px; float:left;}
-.logo {font-family:Hunters K-Pop; color:white; font-size: 50px;}
+
+
+@font-face {
+    font-family: "Hunters K-Pop";
+    src: url("./fonts/Hunters K-Pop.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    padding-left: 25px;
+    float: left;
+
+    font-family: "Hunters K-Pop", sans-serif;
+    color: white;
+    font-size: 50px;
+}
+
 
 .menu {align-content: center; width:850px; height:45px; padding-left:150px; padding-right:150px; padding-top:5px; float:left;}
 .menu a {color:ghostwhite; text-decoration:none; font-size:20px;}
@@ -20,12 +36,4 @@ ul li {display: inline; margin: 50px;}
 
 .tool {background-color:cadetblue; height:75px;}
 
-.gap2 {height:50px; background-color:red;}
-
-.about { background-color:aliceblue; height:500px;}
-
-.showcase {background-color:gold; height:250px; width:1450px; margin-left:25px;}
-
-.contact {background-color:lightcoral; height: 175px;}
-
-.footer {background-color:lightgray; height:100px;}
+.gap2 {height:75px; background-color:red;}
